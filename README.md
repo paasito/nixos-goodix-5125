@@ -6,6 +6,19 @@ This flake integrates the open-source driver from [Rockytkg/goodix-linux-27c6-51
 
 ---
 
+## ⚠️ Disclaimer (read first)
+
+> [!WARNING]
+> **This repository only provides NixOS packaging, Flake integration, and NixOS module options** for the upstream community projects [Rockytkg/goodix-linux-27c6-5125](https://github.com/Rockytkg/goodix-linux-27c6-5125) and [goodix-fp-linux-dev/libfprint](https://github.com/goodix-fp-linux-dev/libfprint).
+>
+> Please read the [upstream project's disclaimer](https://github.com/Rockytkg/goodix-linux-27c6-5125#readme) before using this software.
+>
+> The underlying driver is an independent, unofficial reverse-engineered project and is not affiliated with or supported by Goodix Technology or any device vendor. Its upstream disclaimer covers the risks, firmware, licensing, and other conditions associated with its use.
+>
+> This repository does not claim ownership of the underlying driver or vendor firmware.
+
+---
+
 ## Features
 
 - **Native fprintd support**: Seamless PAM authentication (`sudo`, lockscreen, login manager).
